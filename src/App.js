@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Contact from "./components/Contact";
-import Flat from "./components/Flat";
 import Cobawell from "./components/Cobawell";
 import Disprin from "./components/Disprin";
 import Newpenta from "./components/Newpenta";
@@ -38,7 +37,6 @@ export default function App() {
         <Route exact path="/Alle" element={<Allegra/>} />
         <Route exact path="/Para" element={<Para/>} />
         <Route exact path="/Cobawell" element={<Cobawell/>} />
-        <Route exact path="/Flat" element={<Flat />} />
         <Route exact path="/Newpenta" element={<Newpenta />} />
         <Route exact path="/Disprin" element={<Disprin />} />
         <Route exact path="/Login" element={<Login />} />
